@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>Restaurants</h1>
+  <% @restaurants.each do |restaurant| %>
+    <div  class ="d-flex justify-content-space m-4">
+    <h3> <%= restaurant.name %></h3>
+    <%= link_to "See details", restaurant_path(restaurant), class: "btn btn-primary ms-3"%>
+    </div>
+  <% end %>
+  <%= link_to 'create restaurant', new_restaurant_path, class: "btn btn-primary" %>
+</div>

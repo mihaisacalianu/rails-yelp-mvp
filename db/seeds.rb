@@ -18,10 +18,10 @@ Restaurant.create!(name: 'Dishoom', address: 'London street' , category: 'italia
 
 Restaurant.create!(name: 'KFC', address: 'Bromley' , category: 'chinese', phone_number: '0203040401')
 
-Restaurant.create!(name: 'Dishoom', address: 'Barking' , category: 'french', phone_number: '0203040402')
+Restaurant.create!(name: 'Nandos', address: 'Barking' , category: 'french', phone_number: '0203040402')
 
-Restaurant.create!(name: 'Dishoom', address: 'East ham' , category: 'belgian', phone_number: '0203040403')
+Restaurant.create!(name: 'Subway', address: 'East ham' , category: 'belgian', phone_number: '0203040403')
 
-Restaurant.create!(name: 'Dishoom', address: 'Westminster' , category: 'italian', phone_number: '0203040404')
+Restaurant.create!(name: 'PizzaHut', address: 'Westminster' , category: 'italian', phone_number: '0203040404')
 
 puts "Finished! Created #{Restaurant.count} restaurants."
